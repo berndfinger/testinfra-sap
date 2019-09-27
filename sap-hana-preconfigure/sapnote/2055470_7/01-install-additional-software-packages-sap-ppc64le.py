@@ -23,3 +23,6 @@ def test_packages_are_installed(host):
    assert host.package("powerpc-utils-python").is_installed
    assert host.package("ppc64-diag").is_installed
    assert host.package("IBMinvscout").is_installed
+
+def test_packages_are_not_installed(host):
+   assert not host.package("pseries-energy").is_installed
