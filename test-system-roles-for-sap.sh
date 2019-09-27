@@ -70,8 +70,14 @@ case ${_ROLE} in
    "sap-hana-preconfigure")
       case ${_RHEL} in
          7) SAPNOTES="2009879 2292690 2455582 2382421"
+            if [[ ${_ARCH}. = "ppc64le". ]]; then
+               SAPNOTES="${SAPNOTES} 2055470_7"
+            fi
             ;;
          8) SAPNOTES="2772999 2777782 2382421"
+            if [[ ${_ARCH}. = "ppc64le". ]]; then
+               SAPNOTES="${SAPNOTES} 2055470_8"
+            fi
             ;;
          *) 
             echo "not supported. Exit."
