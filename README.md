@@ -1,10 +1,17 @@
 # testinfra-sap
-These testinfra scripts test if the most important SAP notes are applied to a RHEL 7 or RHEL 8 system.
+These testinfra scripts test if the most important SAP notes are applied to a RHEL 7 or RHEL 8 system. These scripts can also be used to verify the system status after the roles
+- sap-preconfigure
+- sap-netweaver-preconfigure
+- sap-hana-preconfigure
+
+have been applied.
 
 Usage: 
-./test-system-roles-for-sap-sh <role> <host>
+```
+# ./test-system-roles-for-sap-sh <role> <host>
   <role>: name of role: sap-preconfigure , sap-netweaver-preconfigure , or sap-hana-preconfigure
   <host>: name of host to check
+```
 
 Example:
 ./test-system-roles-for-sap.sh sap-preconfigure localhost
