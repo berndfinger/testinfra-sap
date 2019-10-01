@@ -10,15 +10,15 @@ Example:
 ./test-system-roles-for-sap.sh sap-preconfigure localhost
 
 SAP Notes coverage: See output of "find . -name sapnote -exec ls -1 {} \; | sort | uniq":
-1391070
-2002167
-2009879
-2292690
-2382421
-2455582
-2526952
-2772999
-2777782
+- 1391070
+- 2002167
+- 2009879
+- 2292690
+- 2382421
+- 2455582
+- 2526952
+- 2772999
+- 2777782
 
 Not yet fully implemented:
 - checks for ppc64le
