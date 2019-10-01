@@ -7,8 +7,8 @@ These testinfra scripts test if the most important SAP notes are applied to a RH
 have been applied.
 
 Usage: 
-`# `<span style="color:blue">**./test-system-roles-for-sap-sh <role> <host>**</span>
 ```
+# ./test-system-roles-for-sap-sh <role> <host>
   <role>: name of role: sap-preconfigure , sap-netweaver-preconfigure , or sap-hana-preconfigure
   <host>: name of host to check
 ```
