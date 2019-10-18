@@ -6,8 +6,7 @@ These testinfra scripts test if the most important SAP notes are applied to a RH
 
 have been applied.
 
-Prerequisite: 
-The [testinfra](https://testinfra.readthedocs.io/en/latest/) Python package must be installed on the system 
+*Prerequisite:* The [testinfra](https://testinfra.readthedocs.io/en/latest/) Python package must be installed on the system 
 on which the script `test-system-roles-for-sap.sh` is to be executed.
 
 Usage: 
