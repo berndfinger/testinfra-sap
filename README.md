@@ -8,7 +8,7 @@ have been applied.
 
 Prerequisite: 
 The [testinfra](https://testinfra.readthedocs.io/en/latest/) Python package must be installed on the system 
-on which the script test-system-roles-for-sap.sh is to be executed.
+on which the script `test-system-roles-for-sap.sh` is to be executed.
 
 Usage: 
 ```
@@ -18,7 +18,7 @@ Usage:
 ```
 
 Example:
-./test-system-roles-for-sap.sh sap-preconfigure localhost
+`# ./test-system-roles-for-sap.sh sap-preconfigure localhost`
 
 SAP Notes coverage: See output of `find . -name sapnote -exec ls -1 {} \; | sort | uniq`:
 - 1391070
