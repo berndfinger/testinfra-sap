@@ -8,7 +8,8 @@ have been applied.
 
 Prerequisite: 
 The [testinfra](https://testinfra.readthedocs.io/en/latest/) Python package must be installed on the system 
-on which the script `test-system-roles-for-sap.sh` is to be executed.
+on which the script +
+`test-system-roles-for-sap.sh` is to be executed.
 
 Usage: 
 ```
