@@ -1,5 +1,13 @@
 # testinfra-sap
-These testinfra scripts test if the most important SAP notes are applied to a RHEL 7 or RHEL 8 system. These scripts can also be used to verify the system status after the roles
+
+NOTE: This package is no longer maintained. Please from now on use:
+- [sap-preconfigure-assert](https://github.com/berndfinger/sap-preconfigure-assert)
+- [sap-netweaver-preconfigure-assert](https://github.com/berndfinger/sap-netweaver-preconfigure-assert)
+- [sap-hana-preconfigure-assert](https://github.com/berndfinger/sap-hana-preconfigure-assert)
+
+---
+
+The following testinfra scripts test if the most important SAP notes are applied to a RHEL 7 or RHEL 8 system. These scripts can also be used to verify the system status after the roles
 - [sap-preconfigure](https://github.com/linux-system-roles/sap-preconfigure)
 - [sap-netweaver-preconfigure](https://github.com/linux-system-roles/sap-netweaver-preconfigure)
 - [sap-hana-preconfigure](https://github.com/linux-system-roles/sap-hana-preconfigure)
